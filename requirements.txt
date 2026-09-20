@@ -1,0 +1,9 @@
+streamlit
+rank_bm25
+sentence-transformers
+faiss-cpu
+langchain-groq
+langchain-core
+pypdf
+python-docx
+numpy
