@@ -144,7 +144,7 @@ class ContractGuardEngine:
         return [self.chunks[idx] for idx in fused_indices]
 
 def audit_contract(query: str, engine: ContractGuardEngine) -> tuple[str, List[Dict[str, Any]]]:
-    retrieved_chunks = engine.retrieve(query, top_k=2)
+    retrieved_chunks = engine.retrieve(query, top_k=6)
     
     context_blocks = []
     for chunk in retrieved_chunks:
